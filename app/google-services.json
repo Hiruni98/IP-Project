@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "321870164615",
+    "firebase_url": "https://nsbm-green-university.firebaseio.com",
+    "project_id": "nsbm-green-university",
+    "storage_bucket": "nsbm-green-university.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321870164615:android:f97febea9a60c131b2fe22",
+        "android_client_info": {
+          "package_name": "com.example.nsbmgreenuniversity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321870164615-ucgg53s1213ehehekg6ts3kgaq0tge5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nsbmgreenuniversity",
+            "certificate_hash": "e39ef9aaab78902a4d08693fc478ca98824992da"
+          }
+        },
+        {
+          "client_id": "321870164615-6lhampmir69r5et48fsj40jecuflmmkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUkK5paSSjny0-fBc2Dgyd16DLpFVw8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321870164615-6lhampmir69r5et48fsj40jecuflmmkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
