@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "321870164615",
-    "firebase_url": "https://nsbm-green-university.firebaseio.com",
-    "project_id": "nsbm-green-university",
-    "storage_bucket": "nsbm-green-university.appspot.com"
+    "project_number": "204677435078",
+    "firebase_url": "https://admin-87b88.firebaseio.com",
+    "project_id": "admin-87b88",
+    "storage_bucket": "admin-87b88.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:321870164615:android:f97febea9a60c131b2fe22",
+        "mobilesdk_app_id": "1:204677435078:android:304ebad6200a4633c751c7",
         "android_client_info": {
-          "package_name": "com.example.nsbmgreenuniversity"
+          "package_name": "com.example.adminpanel"
         }
       },
       "oauth_client": [
         {
-          "client_id": "321870164615-ucgg53s1213ehehekg6ts3kgaq0tge5k.apps.googleusercontent.com",
+          "client_id": "204677435078-a50i0k5i34j56tggmiignev8sma46uf8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.nsbmgreenuniversity",
-            "certificate_hash": "e39ef9aaab78902a4d08693fc478ca98824992da"
+            "package_name": "com.example.adminpanel",
+            "certificate_hash": "3d9c939d6081bd5f97527eaeda2f2a806b4152f1"
           }
         },
         {
-          "client_id": "321870164615-6lhampmir69r5et48fsj40jecuflmmkv.apps.googleusercontent.com",
+          "client_id": "204677435078-96ifk105ln9uv728lfa5ts8mk9h1803c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDRUkK5paSSjny0-fBc2Dgyd16DLpFVw8Q"
+          "current_key": "AIzaSyCo9F1cOEXyZG2X6P7I0v3XBinXx5GOeVw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "321870164615-6lhampmir69r5et48fsj40jecuflmmkv.apps.googleusercontent.com",
+              "client_id": "204677435078-96ifk105ln9uv728lfa5ts8mk9h1803c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

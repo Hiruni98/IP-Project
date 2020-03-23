@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">NSBM Green University</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="title_activity_google__maps">Map</string>
+    <string name="app_name">AdminPanel</string>
+    <string name="add">Add</string>
 </resources>

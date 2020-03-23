@@ -5,110 +5,90 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/nidula"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_vertical"
             android:orientation="vertical">
 
 
-            <ProgressBar
-                android:id="@+id/progressBar"
-                style="?android:attr/progressBarStyle"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="right"
-                android:layout_marginRight="10dp" />
-
-            <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="205dp"
-                android:layout_height="84dp"
+            <EditText
+                android:id="@+id/nameTxt"
+                android:layout_width="310dp"
+                android:layout_height="61dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/nsbm" />
+                android:layout_marginTop="60dp"
+                android:ems="10"
+                android:hint="Event Name"
+                android:inputType="textPersonName"
+                android:textColorHint="#000" />
+
 
             <EditText
-                android:id="@+id/etEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:id="@+id/DescTxt"
+                android:layout_width="311dp"
+                android:layout_height="119dp"
                 android:layout_gravity="center"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginTop="40dp"
                 android:ems="10"
-                android:hint="Email"
-                android:inputType="textEmailAddress"
-                android:textColor="#000"
-                android:textColorHint="#A9A9A9"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:hint="Event Description"
+                android:inputType="textPersonName"
+                android:textColorHint="#000" />
 
             <EditText
-                android:id="@+id/etPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="15dp"
+                android:id="@+id/dateTxt"
+                android:layout_width="310dp"
+                android:layout_height="61dp"
                 android:ems="10"
-                android:hint="Password"
-                android:inputType="textPassword"
-                android:textColor="#000"
-                android:textColorHint="#A9A9A9"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:inputType="textPersonName"
+                android:hint="Event Date"
+                android:textColorHint="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"/>
+
+            <EditText
+                android:id="@+id/timeTxt"
+                android:layout_width="310dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Event Time"
+                android:textColorHint="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp" />
+
+            <EditText
+                android:id="@+id/venueTxt"
+                android:layout_width="310dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Event Venue"
+                android:textColorHint="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp" />
+
 
             <Button
-                android:id="@+id/btnSignup"
-                android:layout_width="300dp"
-                android:layout_height="30dp"
+                android:id="@+id/SendData"
+                android:layout_width="244dp"
+                android:layout_height="34dp"
                 android:layout_gravity="center"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="15dp"
-                android:background="@drawable/rounded_button"
-                android:text="SignUp"
-                android:textColor="#000"
-                android:textSize="20dp"
-                android:textStyle="bold|italic" />
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="34dp"
+                android:background="@drawable/btn3"
+                android:text="@string/add"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="638dp" />
 
-            <Button
-                android:id="@+id/btnLogin"
-                android:layout_width="300dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="15dp"
-                android:background="@drawable/rounded_button"
-                android:text="Login"
-                android:textColor="#000"
-                android:textSize="20dp"
-                android:textStyle="bold|italic" />
-
-            <Button
-                android:id="@+id/btnUserForgottPass"
-                android:layout_width="300dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="15dp"
-                android:background="@drawable/rounded_button"
-                android:text="Forgot password"
-                android:textColor="#000"
-                android:textSize="20dp"
-                android:textStyle="bold|italic" />
         </LinearLayout>
     </ScrollView>
 
