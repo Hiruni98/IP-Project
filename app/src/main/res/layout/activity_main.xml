@@ -89,6 +89,17 @@
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="638dp" />
 
+            <Button
+                android:id="@+id/btnDisplay"
+                android:layout_width="244dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn3"
+                android:text="Display"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="638dp" />
+
+
         </LinearLayout>
     </ScrollView>
 

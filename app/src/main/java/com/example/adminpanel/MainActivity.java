@@ -42,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
         mSendData.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
+                Dataevents dataevents = new Dataevents(Venue,Name,Description,Date,Time);
                 SaveInformation();
             }
         });
